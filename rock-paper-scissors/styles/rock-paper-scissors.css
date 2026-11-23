@@ -1,0 +1,87 @@
+     body {
+      background-color: black;
+      
+    
+      
+      min-height: 100vh;
+    }
+
+    button {
+        display: inline-flex;
+  justify-content: center;
+  align-items: center;
+      border: 5px solid white;
+      background-color: transparent;
+      cursor: pointer;
+      padding: 30px;
+      height: 100px;
+      width: 100px;
+      border-radius: 60px;
+      margin-top: 20px;
+    }
+
+    
+
+    .title {
+    
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px; 
+    
+    }
+
+    .js-score{
+      color: white;
+    }
+
+    .js-result{
+      color: white;
+    }
+
+    .js-moves{
+      color: white;
+    }
+
+    .reset{
+      color: white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-size: 14px;
+      
+      border-radius: 110px;
+      width: 104px;
+      line-height: 1.4;
+    }
+
+    button img {
+      
+      height: 45px;
+      width: 50px;
+      
+    }
+
+    .moves {
+      width: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+    }
+
+    .result{
+      color: white;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+
+    }
+
+    .score {
+      color: white;
+      font-size: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      
+    }
+    .output-moves{
+      height: 50px;
+    }
